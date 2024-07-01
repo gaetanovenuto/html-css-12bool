@@ -1,18 +1,33 @@
 /*************************************************** 
-    HEADER SECTION
-****************************************************/
-
-
-
-/*************************************************** 
     MAIN SECTION
 ****************************************************/
 
 
 
-/*************************************************** 
-    FOOTER SECTION
-****************************************************/
+[class*="col-"] {
+    min-height: 50px;
+    border: .5px solid white;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    background-color: var(--blue-bg);
+}
+
+.nest {
+    padding: 10px;
+}
+
+.row > .col-6 > .nest > .green-box{
+    background-color: var(--light-green-bg);
+    border: .5px solid var(--blue-bg);
+}
+
+.first-main {
+    margin-bottom: 30px;
+}
+
+
 
 
 
